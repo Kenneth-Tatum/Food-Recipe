@@ -1,0 +1,125 @@
+body {
+    text-align: center;
+    background-color: lightcyan ;
+}
+a 
+{
+    text-decoration: none;
+}
+.title {
+    font-size: 55px;
+    margin: 20px 30% auto;  
+    background-color: lightcyan;
+    border-radius: 45px;
+}
+#aboutUs {
+    background-color: cornsilk;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    opacity: 80%;
+    margin: 20px 60px 40px 60px ;
+}
+#sugar 
+{
+    float: right;
+}
+#ing 
+{
+    background-color: cornsilk;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px auto;
+    opacity: 80%;
+    margin: 20px 1050px auto;
+}
+.Header1 {
+    font-size: 35px;
+    background-image: url(Images/Recipe\ list.png);
+    margin: 20px 50px 10px 40px;
+    border: solid 10px rgb(141, 70, 18);
+    border-radius: 45px;
+}
+.topRecipes {
+    font-size: 65px;
+    background-color: brown;
+    margin: 30px 30% auto;
+    border: solid 10px rgb(141, 70, 18);
+    border-radius: 45px;
+}
+.highlighted {
+    color: chocolate;
+    text-decoration: none;
+}
+.recipe {
+    margin: 25px;
+    height: 800px;
+    width: 1000px;
+}
+.recipeContainer 
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+justify-content: space-around;
+flex-wrap: wrap;
+border: solid 10px rgb(141, 70, 18);
+border-radius: 45px;
+margin: 40px 50px 40px 40px;
+background-image: url(Images/Recipe\ list.png);
+}
+.item 
+{
+    border: solid 4px black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+}
+.easy 
+{
+background-color: green;
+font-weight: bold;
+
+}
+.normal
+{
+background-color: rgb(238, 166, 10);
+font-weight: bold;
+}
+.hard
+{
+background-color: red;
+font-weight: bold;
+}
+.recipe1 
+{
+    background-color: cornsilk;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    opacity: 80%;
+    margin: 20px;
+}
+.recipe2
+{
+    background-color: cornsilk;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    opacity: 80%;
+    margin: 20px;
+}
+.recipe3 
+{
+    background-color: cornsilk;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    opacity: 80%;
+    margin: 20px;
+}
+.instructions 
+{
+    font-style: italic;
+    color: white;
+}
